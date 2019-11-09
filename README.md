@@ -1,1 +1,2 @@
-# ridge_lasso_elastic_net_demo
+This is the code from the StatQuest...
+* Ridge, Lasso and Elastic-Net Regression in R: https://youtu.be/ctmNq7FgbvI
