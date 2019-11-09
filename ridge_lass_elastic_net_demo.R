@@ -1,6 +1,7 @@
 ## This code is based on the code Josh Day's example here:
 ## https://www4.stat.ncsu.edu/~post/josh/LASSO_Ridge_Elastic_Net_-_Examples.html
 
+## install "glmnet" package with: install.packages("glmnet")
 library(glmnet)  # Package to fit ridge/lasso/elastic net models
 
 ##############################################################
@@ -78,7 +79,6 @@ alpha0.predicted <-
 ##     to use lambda.1se all the time.
 ##
 ## newx = is the Testing Dataset
-
 
 ## Lastly, let's calculate the Mean Squared Error (MSE) for the model
 ## created for alpha = 0.
